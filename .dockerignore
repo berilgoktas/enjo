@@ -1,0 +1,12 @@
+.git
+**/.git
+**/.vs
+**/bin
+**/obj
+**/node_modules
+**/dist
+**/.env
+**/*.tar
+**/*.user
+**/agent-transcripts
+**/.cursor

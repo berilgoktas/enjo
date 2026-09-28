@@ -1,0 +1,32 @@
+// HesaplamaController.cs'de yapılacak değişiklikler:
+
+1. using Microsoft.AspNetCore.Authorization; satırını kaldır (satır 2)
+2. [Authorize(Policy = "UserOrAdmin")] satırını kaldır (satır 11)
+
+// Sadece bu iki satırı değiştir:
+
+// ESKI:
+using enjoapi.Models;
+using Microsoft.AspNetCore.Authorization;  // ← Bu satırı kaldır
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using System.Text.Json;
+
+namespace enjoapi.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+[Authorize(Policy = "UserOrAdmin")]  // ← Bu satırı kaldır
+public class HesaplamaController : ControllerBase
+
+// YENİ:
+using enjoapi.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using System.Text.Json;
+
+namespace enjoapi.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class HesaplamaController : ControllerBase

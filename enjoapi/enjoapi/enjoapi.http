@@ -1,0 +1,31 @@
+@enjoapi_HostAddress = http://localhost:3007
+
+GET {{enjoapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{enjoapi_HostAddress}}/api/hesaplama/enjeksiyon
+Content-Type: application/json
+
+{
+  "baskiToplamBrut": 87.57,
+  "kalipGozSayisi": 288,
+  "hammaddeFiyatiEuro": 5,
+  "euroKuru": 35,
+  "baskiCevrimSuresi": 155,
+  "isciKatsayisi": 1,
+  "isciSayisi": 4,
+  "operatorUcreti": 500,
+  "elektrikUcreti": 2.5,
+  "kwDegeri": 50,
+  "faydaliOmurYil": 9,
+  "makineBedeliEuro": 100000,
+  "yillikBakimMaliyeti": 5000,
+  "kalipBakimUcreti": 1000,
+  "kalipKontrolu": "yok",
+  "kalipBedeli": 0,
+  "adet": 454,
+  "hammaddeTuru": "wadsz",
+  "hammaddeTedarikcisi": "asd"
+}

@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+.env
+*.local.json
+*.tar
+*.log
+.DS_Store

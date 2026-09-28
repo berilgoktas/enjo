@@ -1,0 +1,59 @@
+# Bin ve obj klasörleri - Derlenmiş dosyalar zaten build aşamasında oluşturulacak
+bin/
+obj/
+
+# Gizli yapılandırma
+.env
+*.tar
+
+# Visual Studio dosyaları
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test dosyaları
+*.tests.csproj
+test.xlsx
+
+# Git dosyaları
+.git/
+.gitignore
+.gitattributes
+
+# README dosyası
+README.md
+
+# SQL dosyaları - Zaten veritabanında çalıştırılmış olmalı
+*.sql
+
+# HTTP test dosyaları
+*.http
+
+# Docker dosyaları
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.*.yml
+
+# Log dosyaları
+*.log
+
+# Geçici dosyalar
+*.tmp
+*.temp
+*~
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# NuGet paketleri - Restore işlemi sırasında indirilecek
+*.nupkg
+**/packages/*
+
+# VS Code ayarları
+.vscode/
+

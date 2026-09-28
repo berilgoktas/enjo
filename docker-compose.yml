@@ -1,0 +1,13 @@
+services:
+  enjo:
+    build: .
+    image: enjo
+    container_name: enjo
+    ports:
+      - "3006:3006"
+      - "3007:3007"
+    env_file:
+      - enjoapi/enjoapi/.env
+    environment:
+      ASPNETCORE_URLS: http://0.0.0.0:3007
+      ASPNETCORE_ENVIRONMENT: Production

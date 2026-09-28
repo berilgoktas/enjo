@@ -1,0 +1,15 @@
+## .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+## Secrets
+.env
+*.local.json
+*.tar
+
+## OS / IDE
+.idea/
+.DS_Store
