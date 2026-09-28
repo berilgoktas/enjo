@@ -137,7 +137,3 @@ Arayüz **3006**, API **3007** dinler. Vite, tarayıcıdaki `/api` isteklerini 3
 - `POST /api/hesaplama/enjeksiyon` (ve diğer aşamalar) — maliyet hesabı
 - `GET|POST|PUT|DELETE /api/hesaplama/satis-kayitlari` — proje/satış kayıtları
 - `GET|PUT /api/admin/*-varsayilan-degerler` — makine ve birim fiyat varsayılanları
-
-## Lisans
-
-Kurum içi kullanım içindir.
